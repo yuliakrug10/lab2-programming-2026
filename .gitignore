@@ -8,7 +8,6 @@
 # 3. Un-ignore the allowed file extensions
 !*.cpp
 !*.h
-!*.txt
 !*.jpg
 !*.jpeg
 !*.png

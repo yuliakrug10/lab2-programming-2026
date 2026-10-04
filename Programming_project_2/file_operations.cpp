@@ -5,7 +5,8 @@
 #include <limits>
 
 void make_random_seq(const std::string& filename, size_t size) {
-    std::mt19937 gen(std::random_device{}());
+    std::random_device rd; 
+    std::mt19937 gen(rd());
     std::uniform_int_distribution<int> dist(std::numeric_limits<int>::min(), std::numeric_limits<int>::max());
     std::ofstream output(filename);
 
