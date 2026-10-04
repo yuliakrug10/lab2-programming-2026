@@ -1,5 +1,5 @@
-//? MSVC v143 (версія 19.44.35228, 32-bit x86)
-// Круглєня Юлія К-28
+// MSVC v143 (version 19.44.35228, 32-bit x86)
+// Kruhlienia Yulia K-28
 
 #include <iostream>
 #include "file_operations.h"
